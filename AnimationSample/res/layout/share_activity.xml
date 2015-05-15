@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+    
+    <RelativeLayout android:id="@+id/title_bar"
+        android:background="#2b3c3e"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="10dip" >
+     	<ImageButton android:id="@+id/back_btn"
+     	    android:layout_width="wrap_content"
+     	    android:layout_height="wrap_content"
+     	    android:layout_centerVertical="true"
+     	    android:src="@drawable/ic_back" />
+     	<TextView android:id="@+id/top_str"
+     	    android:layout_width="wrap_content"
+     	    android:layout_height="wrap_content"
+     	    android:layout_centerInParent="true"
+     	    android:text="@string/SHARE"/>
+    </RelativeLayout>
+    <ListView android:id="@+id/share_list"
+        android:layout_below="@id/title_bar"
+        android:background="#FFFAF0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+<!--      <GridView android:id="@+id/share_list"
+         android:layout_below="@id/title_bar"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:numColumns="2"
+         android:gravity="center"
+         ></GridView> -->
+
+</RelativeLayout>
