@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text">#666</color>
+    <color name="wtext">#fff</color>
+    <color name="btext">#000</color>
+    <color name="rtext">#cc0000</color>
+    <color name="nobg">#00000000</color>
+    <color name="dark_gray">#1f1f1f</color>
+    <color name="btn_green">#3e9805</color>
+    <color name="btn_blue">#0099FF</color>
+    <color name="banner_black">#ff000000</color>
+    <color name="title_bg">#2b3c3e</color>
+    <color name="drawer_bg">#363636</color>
+    <color name="text_blue">#0066FF</color>
+    <color name="grey_bg">#c9c9c9</color>
+</resources>

@@ -1,0 +1,52 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="ad_text">
+        <item name="android:textSize">@dimen/title_text</item>
+        <item name="android:textColor">@color/btext</item>
+    </style>
+
+    <style name="content_text">
+        <item name="android:textSize">@dimen/content_text</item>
+        <item name="android:textColor">@color/btext</item>
+    </style>
+
+    <style name="title_text">
+        <item name="android:textSize">@dimen/title_text</item>
+        <item name="android:textColor">@color/wtext</item>
+    </style>
+
+    <style name="title_bar">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50dip</item>
+        <item name="android:background">@color/title_bg</item>
+    </style>
+    <style name="Widget_GifView">
+        
+    </style>
+
+    <declare-styleable name="GifView">
+        <attr name="gif" format="reference" />
+        <attr name="paused" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="CustomTheme">
+        <attr name="gifViewStyle" format="reference" />
+    </declare-styleable>
+
+</resources>

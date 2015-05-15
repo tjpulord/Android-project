@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding//src/com/telecomsys/autokit/communication/CommunicationClientListenerImpl.java=UTF-8
+encoding//src/com/telecomsys/autokit/communication/FileRequestListenerImpl.java=UTF-8
+encoding//src/com/yesway/izhijia/activity/ConnectStatusActivity.java=UTF-8
+encoding//src/com/yesway/izhijia/activity/MemberInformationActivity.java=UTF-8
+encoding//src/com/yesway/izhijia/common/Utility.java=UTF-8
+encoding//src/com/yesway/izhijia/fragment/AppManagementFragment.java=UTF-8
+encoding//src/com/yesway/izhijia/kaola/data/KaoLaCategory.java=UTF-8
+encoding//src/com/yesway/izhijia/kaola/data/KaoLaRadioItem.java=UTF-8
+encoding//src/com/yesway/izhijia/kaola/internal/KaoLaServiceImpl.java=UTF-8
+encoding//src/com/yesway/izhijia/model/app/internal/AppManager.java=UTF-8
+encoding//src/com/yesway/izhijia/model/car/CarModel.java=UTF-8
+encoding//src/com/yesway/izhijia/model/user/UserModel.java=UTF-8
+encoding//src/com/yesway/izhijia/view/EditTextWithDelete.java=UTF-8
+encoding//src/com/yesway/izhijia/view/GifView.java=UTF-8

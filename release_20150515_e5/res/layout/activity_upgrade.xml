@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/wtext"
+    tools:context="${relativePackage}.${activityClass}" >
+
+     <RelativeLayout
+        android:id="@+id/title_bar"
+		style="@style/title_bar"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="10dip" >
+        <ImageButton 
+            android:id="@+id/back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@color/nobg"
+            android:src="@drawable/ic_back"
+            />
+        <TextView
+            android:id="@+id/top_str"
+            style="@style/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/SOFTWARE_UGRADE" />
+    </RelativeLayout>
+    
+    <ImageView 
+        android:id="@+id/app_icon"
+        android:layout_below="@id/title_bar"
+        android:layout_marginTop="40dip"
+		android:src="@drawable/ic_launcher"
+		android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    <TextView 
+        android:id="@+id/app_name"
+        android:layout_below="@id/app_icon"
+        android:layout_marginTop="20dip"
+		android:layout_centerHorizontal="true"
+		android:text="@string/app_version"
+		android:textColor="@color/btext"
+		android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    <Button
+        android:id="@+id/check_btn"
+        android:layout_below="@id/app_name"
+        android:layout_marginTop="40dip"
+		android:layout_centerHorizontal="true"
+		android:text="@string/check_update"
+		android:textColor="@color/wtext"
+		android:textSize="20sp"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:background="@drawable/file_red_btn_bg" />
+</RelativeLayout>
+
+

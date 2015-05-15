@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <com.yesway.izhijia.view.GifView
+        android:id="@+id/connect_icon"
+        android:layout_width="200dip"
+        android:layout_height="200dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dip"
+        android:layout_marginBottom="40dip" />
+
+    <com.yesway.izhijia.view.EditTextWithDelete
+        android:id="@+id/car_code"
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/connect_icon"
+        android:background="@color/wtext"
+        android:imeOptions="flagNoExtractUi|actionDone"
+        android:ems="10"
+        android:maxLength="8"
+        android:singleLine="true"
+        android:textSize="16sp" >
+        <requestFocus />
+    </com.yesway.izhijia.view.EditTextWithDelete>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/file_red_btn_bg"
+            android:text="@string/cancel"
+            android:textColor="@color/wtext"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/done_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/file_green_btn_bg"
+            android:text="@string/confirm"
+            android:textColor="@color/wtext"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/input_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/car_code"
+        android:layout_alignLeft="@id/car_code"
+        android:text="@string/input_car_code"
+        android:textColor="@color/btext"
+        android:textSize="16sp" />
+
+</RelativeLayout>
